@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777; 
+}
+
+body {
+    background: url(/assets/images/rockywall.png);
+}
+
+.active a {
+    color: #aaaaaa;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #ccc;
+}
+
+.center-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-width {
+    width: 960px; 
+}
+
+.name-header {
+    background: #4AAAA5;
+    color: #FFFFFF; 
+    padding: 20px;
+    margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link {
+    color: #777777;
+    padding: 0px 10px;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.nav-wrapper {
+    background: #FFFFFF;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.right {
+    float: right;
+}
+
+.splitter-nav {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+
+
+
+
