@@ -84,6 +84,12 @@ h2 {
     padding: 0;
 }
 
+.profile-image-wrapper{
+    width: 200px;
+    height: 200px;
+    margin-right: 15px; 
+}
+
 .right {
     float: right;
 }
