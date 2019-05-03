@@ -21,7 +21,6 @@ body {
 
 h2 {
     color:  #4AAAA5;
-    padding-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -53,10 +52,6 @@ h2 {
     border: 1px solid #ccc;
 }
 
-.main-width {
-    width: 960px; 
-}
-
 .name-header {
     background: #4AAAA5;
     color: #FFFFFF; 
@@ -81,18 +76,16 @@ h2 {
     margin-bottom: 20px;
 }
 
-.profile-image-wrapper{
-    width: 200px;
-    height: 200px;
-    margin-right: 15px; 
-}
-
 .splitter-nav {
     border-left: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
 }
 
-
-
+/* lg in bootstrap is >= 992px */
+@media screen and (max-width: 991px) {
+    .mt-md {
+        margin-top: 1rem!important;
+    }
+}
 
 
