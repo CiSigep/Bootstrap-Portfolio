@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: url(../images/rockywall.png);
+    background: url("../images/rockywall.png");
     height: 100%;
 }
 
