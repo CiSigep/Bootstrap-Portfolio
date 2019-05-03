@@ -32,10 +32,6 @@ h2 {
     border-bottom: 1px solid #ccc;
 }
 
-.bottom-margin-20 {
-    margin-bottom: 20px;
-}
-
 .btn-primary {
     background-color: #4AAAA5;
     border-color: #4AAAA5; 
@@ -44,7 +40,7 @@ h2 {
 .image-title {
     background: #4AAAA5;
     color: #FFFFFF;
-    bottom: 10px;
+    bottom: 5px;
 }
 
 .main-container {
@@ -55,14 +51,11 @@ h2 {
 .name-header {
     background: #4AAAA5;
     color: #FFFFFF; 
-    padding: 20px;
-    margin-bottom: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav-link {
     color: #777777;
-    padding: 0px 10px;
 }
 
 .nav-link:hover {
@@ -73,19 +66,10 @@ h2 {
     background: #FFFFFF;
     width: 100%;
     border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
 }
 
 .splitter-nav {
     border-left: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
 }
-
-/* lg in bootstrap is >= 992px */
-@media screen and (max-width: 991px) {
-    .mt-md {
-        margin-top: 1rem!important;
-    }
-}
-
 
